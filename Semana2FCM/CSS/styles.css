@@ -1,0 +1,81 @@
+h3 {  color: #610B5E;
+        text-align: center;
+        font: italic 200% fantasy;
+        border-radius: 8px;  }
+h2 {  color: #610B5E;
+        font: Arial;         }
+
+body {  background-color: #F8E0F7;
+          font-family: Arial, Helvetica, sans-serif;  }
+p    {  background-color: #CEECF5;
+          color: #2E2EFE;
+          text-align: center;
+          font-style: oblique;
+          /* font-variant: normal */
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 15px;
+          /* line-height: normal */
+          font-family: Arial;        }
+
+.barra01  {  list-style: none;
+             margin: 0;
+             padding: 0;
+             background: #A9D0F5;
+             border-radius: 8px;
+             overflow: auto;     }
+    .barra01 li   {  float: left;             }
+    .barra01 li a {  display: block;
+                     color: #610B5E;
+                     text-decoration: none;
+                     padding: 10px 15px;      }
+     .barra01 li a:hover {  background-color: #F5F6CE; color: #848484;      }
+
+.menu01 {    list-style: none;
+             border: 1px #610B5E solid;
+             border-radius: 10px;
+             width: 300px;
+             padding: 20px;      }
+      .menu01 li {    font-size: 18px;
+                      line-height: 2.4em;
+                      border-bottom: dotted 1px #610B5E;     }
+      .menu01 li:last-child {  border: none;      }
+      .menu01 li a {  color: #610B5E;
+                      text-decoration: none;    }
+     .menu01 li a:hover {  color: coral;       }
+
+
+     <link href="https://fonts.googleapis.com/css?family=Raleway"
+       rel="stylesheet"  />
+
+*  {  box-sizing: border-box;  margin:0;  padding: 0;  }
+a  {  text-decoration: none;    }
+
+#container  { margin: 30px auto;  max-width: 400px;  padding: 20px;      }
+.form-wrap {  background: #fff;  padding: 15px 25px;  color: #610B5E;    }
+       .form-wrap h1,
+       .form-wrap p {  text-align: center;            }
+       .form-wrap .form-group {  margin-top: 15px;    }
+       .form-wrap .form-group label {  display: block;  color: #610B5E;  }
+       .form-wrap .form-group input {  width: 100%;  padding: 10px;  border: #666 1px solid;  border-radius: 5px;  }
+       .form-wrap button {   display: block;  width: 100%;  padding: 10px;  margin-top: 20px;  background: #F5F6CE;
+                             color: #610B5E;  cursor: pointer;    }
+       .form-wrap button:hover {  background: #CECEF6  }
+       .form-wrap .bottom-text {  font-size: 13px;  margin-top: 20px;  }
+
+footer {  text-align: center;  margin-top: 10px;  }
+      footer a {  color:#49c1a2   }
+
+#Caja-1 {  border: 3px solid #610B5E;  border-radius: 10px;  }
+
+#Caja-2 {  background: url('../Especialidades/Especialidades01.jpg') center center/cover;
+           color:#8B0000;  height: 150%;  width: 1300px;
+           border: 3px solid #610B5E;  border-radius: 10px;   }
+
+#Caja-3 {  background: url('../FondosHeladeria/Fondo02.jpg') center center/cover;
+           color:#8B0000;  height: 150%;  width: 1300px;
+           border: 3px solid #610B5E;  border-radius: 10px;   }
+
+#Caja-4 {  background: url('../FondosHeladeria/Fondo03.jpg') no-repeat center center/cover;
+           background-attachment: fixed;  color: #610B5E;
+           border: 3px solid #610B5E;  border-radius: 10px;   }
